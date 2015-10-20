@@ -3,7 +3,7 @@
 #define PLUGIN_NAME "KZC_TimeName"
 #define PLUGIN_AUTHOR "AzaZPPL"
 #define PLUGIN_DESCRIPTION "Shows how long there is left in the server title for next mapchange"
-#define PLUGIN_VERSION "1.0"
+#define PLUGIN_VERSION "1.1"
 #define PLUGIN_URL "http://kz-climb.com"
 
 #include <sourcemod>
