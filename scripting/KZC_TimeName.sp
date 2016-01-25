@@ -1,20 +1,14 @@
 #pragma semicolon 1
 
-#define PLUGIN_NAME "KZC_TimeName"
-#define PLUGIN_AUTHOR "AzaZPPL"
-#define PLUGIN_DESCRIPTION "Shows how long there is left in the server title for next mapchange"
-#define PLUGIN_VERSION "1.1"
-#define PLUGIN_URL "http://kz-climb.com"
-
 #include <sourcemod>
 
 public Plugin myinfo = 
 {
-	name = PLUGIN_NAME,
-	author = PLUGIN_AUTHOR,
-	description = PLUGIN_DESCRIPTION,
-	version = PLUGIN_VERSION,
-	url = PLUGIN_URL
+	name = "KZC_TimeName",
+	author = "AzaZPPL",
+	description = "Timeleft in server title for KZ-Climb",
+	version = "1.2",
+	url = "http://kz-climb.com"
 };
 
 Handle h_convHostname;
